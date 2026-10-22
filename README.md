@@ -1,9 +1,9 @@
-# WEB-BASED COLLABORATIVE INJURY ASSESSMENT AND IMPROVISED FIRST AID DESICION SUPPORT SYSTEM
+# AI-BASED EMERGENCY INJURY ASSESSMENT WITH FIRST AID RECOMMENDER SYSTEM
 
-[One sentence: what problem does this project solve, and for whom?]
+This project provides an AI-based decision support system that leverages computer vision and fuzzy logic to assist first responders and non-expert community in rapidly assessing injuries and generating immediate, reliable first aid recommendations.
 
 ## Problem statement
-[3 to 5 sentences: who is affected, what is going wrong, and why it matters.]
+During a sudden emergencies and accidents, non-expert community and volunteer first responders often experience panic and hesitation when evaluating injuries even the common injuries such as fractures, open wound, and sprains. This diagnostic uncertainty is severely compounded by the complete unavailability of proper first aid equipment such as standard bandages at the scene, without knowing how to verify safe substitute. Without real-time guidance that adapts to both the injury assessment and available resources, initial treatment is often delayed, worsening the injuries before medical help arrives.
 
 ## Documents
 - [Problem statement](docs/problem-statement.md)
