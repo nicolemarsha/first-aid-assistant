@@ -1,17 +1,39 @@
 # AI-BASED EMERGENCY INJURY ASSESSMENT WITH FIRST AID RECOMMENDER SYSTEM
 
-This project provides an AI-based decision support system that leverages computer vision and fuzzy logic to assist first responders and non-expert community in rapidly assessing injuries and generating immediate, reliable first aid recommendations.
+This project provides real-time injury assessment and first aid guidance using computer vision and fuzzy logic to help non-expert community members and volunteer first responders manage emergency injuries safely when standard first aid equipment is unavailable.
 
 ## Problem statement
-During a sudden emergencies and accidents, non-expert community and volunteer first responders often experience panic and hesitation when evaluating injuries even the common injuries such as fractures, open wound, and sprains. This diagnostic uncertainty is severely compounded by the complete unavailability of proper first aid equipment such as standard bandages at the scene, without knowing how to verify safe substitute. Without real-time guidance that adapts to both the injury assessment and available resources, initial treatment is often delayed, worsening the injuries before medical help arrives.
+Untrained community members and first responders facing injury emergencies often struggle to accurately assess injury severity and select appropriate care steps, especially when standard first aid equipment is missing. Non-experts lack the clinical knowledge required to judge whether improvised household items are safe, increasing the risk of secondary trauma or contamination. Existing digital health tools rely heavily on manual text entry or complex diagnostic steps, which are inefficient and error-prone during high-stress situations. 
 
 ## Documents
 - [Problem statement](docs/problem-statement.md)
 - [Requirements](docs/requirements.md)
 - [User stories](docs/user-stories.md)
 
+## Project structure
+```
+.
+|-- README.md
+|-- LICENSE
+|-- .gitignore
+|-- docs/
+|   |-- problem-statement.md
+|   |-- requirements.md
+|   |-- user-stories.md
+|   |-- sprint-log.md
+|-- src/
+    |-- README.md      (code will go here)
+```
+
+## Roadmap
+- [x] Problem statement written
+- [x] Requirements numbered and linked to user stories
+- [x] User stories have acceptance criteria
+- [x] Specialized technology chosen and explained
+- [ ] First prototype (later in the semester)
+
 ## Status
-Planning (CSC649, Week 2)
+Sprint 1 completed (CSC649, Week 3)
 
 ## Author
 Nicole Marsha
