@@ -1,26 +1,26 @@
 # User Stories
 
-1. As a first responder, I want to use a live camera feed to capture and detect injuries, so that the computer vision model can automatically analyze visual injuries features such as fractures swelling or open wounds). (FR1)
+1. As a first responder, I want to use a live camera to capture images of limb injuries, so that the computer vision model can analyse visible injury features such as fractures and open wounds. (FR1) 
    - Acceptance Criteria:
-     1. Activating the live camera feed allows the system to capture real-time frames of the affected injuries.
-     2. The computer vision model successfully processes the video frame to detect and classify the injury features.
+     1. Activating the live camera allows the system to capture images of the affected limb. 
+     2. The computer vision model processes the captured image and identifies visible injury features within its supported categories.
 
-2. As a non-expert community, I want to select currently available first aid materials from a checklist, so that the system can account for missing standard equipment. (FR2)
+2. As a community volunteer, I want to select the first-aid materials that are available from a checklist, so that the system can consider missing supplies when providing first-aid guidance. (FR2)
    - Acceptance Criteria:
-     1. Checking available items dynamically updates the resource list passed to the fuzzy logic engine.
-     2. Unchecking standard medical tools such as triangular bandages enables suggestions for safe household substitutes like belt and jackets.
+     1. Selecting available items updates the list of materials used by the system to prepare its recommendations
+     2. Marking standard first-aid materials as unavailable allows the system to check whether suitable alternatives are supported by reliable safety guidelines 
 
-3. As a non-expert community, I want the system to generate step-by-step first aid and improvised substitute instructions, so that I can provide safe initial care based on the injury severity and available tools. (FR3)
+3. As a non-expert user, I want the system to provide step-by-step first-aid instructions based on the visible injury features and available materials, so that I can provide suitable initial care. (FR3)
    - Acceptance Criteria:
-     1. The fuzzy logic inference engine combines visual injury severity with tool availability to display prioritized, step-by-step care guidelines.
-     2. Clear visual safety warnings are displayed if selected substitute materials carry high contamination or injury risks.
+     1. The system uses the injury assessment results and available materials to display relevant first-aid guidance based on recognised guidelines.
+     2. The system displays clear safety warnings when a recommended action or alternative material may carry a risk.
 
-4. As a non-expert community, I want the system to automatically trigger the computer vision scanner when standard tools are missing, so that I can scan my surroundings for household substitute tools. (FR4)
+4. As a non-expert user, I want the system to check for possible alternative materials when standard first-aid supplies are missing, so that I understand what options may be suitable. (FR4)
    - Acceptance Criteria:
-     1. Unchecking required standard tools in the checklist automatically activates the camera feed for object detection.
-     2. The computer vision model identifies safe household items in real-time.
+     1. Marking a required standard material as unavailable activates the alternative-material checking process.
+     2. The computer vision model analyses the camera image for visible objects matching supported categories without assuming safety based on appearance alone.
 
-5. As a first responder, I want to review visual safety warnings and substitute usage disclaimers before applying improvised tools, so that I do not cause secondary harm to the victim. (FR5)
+5. As a first responder, I want to review safety warnings and usage instructions before using a recommended alternative material, so that I can reduce the risk of causing further harm. (FR5)
    - Acceptance Criteria:
-     1. Prominent safety disclaimers and usage cautions are displayed alongside any recommended substitute item.
-     2. The system requires confirmation or provides clear warning indicators if a substitute item poses potential contamination or instability risks.
+     1. The system displays safety warnings and usage instructions alongside any recommended alternative material.
+     2. The system clearly warns users when a material may be unsuitable or when its safety cannot be confirmed, and advises them to follow recognised first-aid guidance.
