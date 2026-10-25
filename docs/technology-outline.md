@@ -13,7 +13,7 @@
 2. **OpenCV:** Open-source library providing image processing algorithms, camera stream handling, and matrix operations for real-time display output.
 3. **PyTorch Mobile / ONNX Runtime:** Machine learning deployment frameworks that optimize and quantize neural network models for execution on mobile edge devices without cloud dependence.
 
-## C3: Fit to Problem, Benefits, Limitations and Comparison
+## Fit to Problem, Benefits, Limitations and Comparison
 - **Fit to Problem:** Solves non-expert bystanders' hesitation and lack of visual assessment skills during emergencies by providing automated visual injury detection and household substitute scanning.
 - **Benefits:** Instant objective visual identification and automated material scanning to reduce unsafe improvised choices.
 - **Limitations:** Environmental lighting and occlusion sensitivity; surface-level scope only (cannot detect internal fractures without X-rays).
